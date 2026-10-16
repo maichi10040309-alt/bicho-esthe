@@ -25,6 +25,9 @@ content:
       - name: concept_description
         label: "コンセプト本文"
         type: text
+      - name: concept_image
+        label: "コンセプト下の施術写真"
+        type: image
       - name: method_1_title
         label: "method_1_title"
         type: string
