@@ -115,3 +115,70 @@ content:
       - name: faq_5_answer
         label: "faq_5_answer"
         type: text
+
+  - name: cases
+    label: "ビフォーアフター症例集"
+    type: file
+    path: content.json
+    format: json
+    fields:
+      - name: case_1_image
+        label: "症例1｜画像"
+        type: image
+      - name: case_1_title
+        label: "症例1｜見出し"
+        type: string
+      - name: case_1_sessions
+        label: "症例1｜施術回数"
+        type: string
+      - name: case_1_description
+        label: "症例1｜説明文"
+        type: text
+      - name: case_2_image
+        label: "症例2｜画像"
+        type: image
+      - name: case_2_title
+        label: "症例2｜見出し"
+        type: string
+      - name: case_2_sessions
+        label: "症例2｜施術回数"
+        type: string
+      - name: case_2_description
+        label: "症例2｜説明文"
+        type: text
+      - name: case_3_image
+        label: "症例3｜画像"
+        type: image
+      - name: case_3_title
+        label: "症例3｜見出し"
+        type: string
+      - name: case_3_sessions
+        label: "症例3｜施術回数"
+        type: string
+      - name: case_3_description
+        label: "症例3｜説明文"
+        type: text
+      - name: case_4_image
+        label: "症例4｜画像"
+        type: image
+      - name: case_4_title
+        label: "症例4｜見出し"
+        type: string
+      - name: case_4_sessions
+        label: "症例4｜施術回数"
+        type: string
+      - name: case_4_description
+        label: "症例4｜説明文"
+        type: text
+      - name: case_5_image
+        label: "症例5｜画像"
+        type: image
+      - name: case_5_title
+        label: "症例5｜見出し"
+        type: string
+      - name: case_5_sessions
+        label: "症例5｜施術回数"
+        type: string
+      - name: case_5_description
+        label: "症例5｜説明文"
+        type: text
