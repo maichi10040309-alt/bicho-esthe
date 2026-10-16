@@ -1,0 +1,117 @@
+media:
+  input: media
+  output: /media
+  rename: safe
+  categories: [image]
+content:
+  - name: homepage
+    label: "ホームページを編集"
+    type: file
+    path: content.json
+    format: json
+    fields:
+      - name: hero_title
+        label: "トップの大見出し"
+        type: string
+      - name: hero_description
+        label: "トップの説明"
+        type: text
+      - name: hero_image
+        label: "トップの写真"
+        type: image
+      - name: concept_title
+        label: "コンセプトの見出し"
+        type: string
+      - name: concept_description
+        label: "コンセプト本文"
+        type: text
+      - name: method_1_title
+        label: "method_1_title"
+        type: string
+      - name: method_1_description
+        label: "method_1_description"
+        type: text
+      - name: method_1_image
+        label: "method_1_image"
+        type: image
+      - name: method_2_title
+        label: "method_2_title"
+        type: string
+      - name: method_2_description
+        label: "method_2_description"
+        type: text
+      - name: method_2_image
+        label: "method_2_image"
+        type: image
+      - name: method_3_title
+        label: "method_3_title"
+        type: string
+      - name: method_3_description
+        label: "method_3_description"
+        type: text
+      - name: method_3_image
+        label: "method_3_image"
+        type: image
+      - name: price_90
+        label: "price_90"
+        type: number
+      - name: price_120
+        label: "price_120"
+        type: number
+      - name: price_150
+        label: "price_150"
+        type: number
+      - name: monitor_price
+        label: "monitor_price"
+        type: number
+      - name: monitor_note
+        label: "モニターの案内文"
+        type: text
+      - name: ticket_note
+        label: "回数券の案内文"
+        type: text
+      - name: line_url
+        label: "公式LINEの友だち追加URL"
+        type: string
+      - name: hotpepper_url
+        label: "ホットペッパー予約URL"
+        type: string
+      - name: telephone
+        label: "telephone"
+        type: string
+      - name: business_address
+        label: "店舗住所"
+        type: text
+      - name: opening_note
+        label: "営業時間・駐車場"
+        type: text
+      - name: faq_1_question
+        label: "faq_1_question"
+        type: string
+      - name: faq_1_answer
+        label: "faq_1_answer"
+        type: text
+      - name: faq_2_question
+        label: "faq_2_question"
+        type: string
+      - name: faq_2_answer
+        label: "faq_2_answer"
+        type: text
+      - name: faq_3_question
+        label: "faq_3_question"
+        type: string
+      - name: faq_3_answer
+        label: "faq_3_answer"
+        type: text
+      - name: faq_4_question
+        label: "faq_4_question"
+        type: string
+      - name: faq_4_answer
+        label: "faq_4_answer"
+        type: text
+      - name: faq_5_question
+        label: "faq_5_question"
+        type: string
+      - name: faq_5_answer
+        label: "faq_5_answer"
+        type: text
