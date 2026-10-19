@@ -130,13 +130,6 @@ content:
       - name: faq_5_answer
         label: "faq_5_answer"
         type: text
-
-  - name: cases
-    label: "ビフォーアフター症例集"
-    type: file
-    path: content.json
-    format: json
-    fields:
       - name: case_1_image
         label: "症例1｜画像"
         type: image
