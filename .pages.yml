@@ -28,6 +28,12 @@ content:
       - name: concept_image
         label: "コンセプト下の施術写真"
         type: image
+      - name: local_seo_title
+        label: "和歌山市で腸もみをお探しの方へ｜見出し"
+        type: text
+      - name: local_seo_description
+        label: "和歌山市で腸もみをお探しの方へ｜説明文"
+        type: text
       - name: method_1_title
         label: "method_1_title"
         type: string
