@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maichi10040309-alt.github.io/bicho-esthe/sitemap.xml
