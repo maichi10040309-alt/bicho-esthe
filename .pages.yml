@@ -64,6 +64,18 @@ content:
       - name: price_150
         label: "price_150"
         type: number
+      - name: plan_90_description
+        label: "90分コースの説明"
+        type: text
+      - name: plan_120_description
+        label: "120分コースの説明"
+        type: text
+      - name: plan_150_description
+        label: "150分コースの説明"
+        type: text
+      - name: plan_common_note
+        label: "全コース共通のご案内"
+        type: text
       - name: monitor_price
         label: "monitor_price"
         type: number
